@@ -128,7 +128,7 @@ const App = () => {
       </div>
       {showContent && (
         <div className="main w-full rotate-[-10deg] scale-[1.7]">
-          <div className="landing w-full h-screen bg-black">
+          <div className="landing relative w-full h-screen bg-black">
             <div className="navbar absolute top-0 left-0 z-20 w-full py-7 px-10">
               <div className="logo flex gap-6 items-center">
                 <div className="lines flex flex-col gap-1">
