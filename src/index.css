@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+
+@font-face {
+  font-family: "pricedown";
+  src: url("./pricedown.otf");
+}
+@font-face {
+  font-family: "helvetica";
+  src: url("../public/HelveticaNowDisplay-Regular.otf");
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "pricedown", sans-serif;
+}
+body{
+  overflow-x: hidden;
+}
